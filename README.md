@@ -1,17 +1,17 @@
-# Opening Tkinter GUI on RaspberryPi Startup <br>
-Open Terminal from top menu in Raspberry pi. <br>
-Write the following commands: <br>
-
+# Worried, how to start a Tkinter based Python GUI on Raspberry PI Startup <br>
+## Follow the steps below <br>
+1) Open Terminal in Raspberry PI. <br>
+2) Write the following commands: <br>
 ```
 sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 ```
+You will see a text file. <br>
 
-You will see a text file, in the end add: <br>
-
+3) At the end add a line: <br>
 ```
 @lxterminal -e python3 /home/pi/<your_directory>/<your_file>.py
 ```
 
-Note: Use your own directory and program name here <br>
-Press ctrl+x and then "Y" and enter twice. <br>
-Type "sudo reboot" to reboot your pi.
+4) Press ***"ctrl+x"*** and then press ***"y"*** and press ***"Enter Key"*** twice. <br>
+5) Type ***"sudo reboot"*** to reboot your pi. <br>
+Note: Use your own directory and program replacing <your_directory> and <your_file> respectively. <br>
