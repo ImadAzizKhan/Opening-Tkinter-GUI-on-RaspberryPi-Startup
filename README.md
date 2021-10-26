@@ -1,4 +1,5 @@
-# Opening Tkinter GUI on RaspberryPi Startup <br><br>
+# Worried, how to start a Tkinter based Python GUI on Raspberry PI Startup <br>
+## Follow the steps below <br>
 1) Open Terminal in Raspberry PI. <br>
 2) Write the following commands: <br>
 ```
